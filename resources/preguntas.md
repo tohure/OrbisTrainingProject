@@ -5,6 +5,8 @@ Integrantes:
 - Carlo Huaman
 - Pedro Vega
 
+---
+
 # Preguntas parte 1
 
 1. ¿Qué es y para qué sirve GIT?
@@ -23,6 +25,8 @@ La configuración la hago a traves de variables globales de git como:
 $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
 
+---
+
 # Preguntas parte 2
 1. ¿Para qué ayuda el `git stash`?
 Para guardar cambios en memoria.
@@ -33,6 +37,8 @@ Te permite editar tus commit y acomodarlos segun convenga al respecto con la rem
 4. ¿Cual es la diferencia entre la shell y la terminal?
 
 5. ¿Que hace estos comandos? `git clone`, `git status`, `git add`, `git commit`, `git push`, `git checkout`, `git stash`, `git rebase`, `git merge`, `git branch`, `git push`,
+
+---
 
 #Preguntas Docker
 1. ¿Qué importancia tiene los tags en un proyecto?
@@ -60,3 +66,4 @@ para decirle el programa con el cual se interactuará en su terminal
 12. ¿Cuál es la diferencia entre docker ps y docker ps -a?
 El primero me lista todos los contenedores activos, mientras que el segundo nos lista todos los contenedores actuales, esten corriendo o no.
 
+---

@@ -1,6 +1,9 @@
 FROM node:10.10.0-slim
 
-COPY PREUGNTAS.MD app/PREUGNTAS.MD
+RUN mkdir app
+RUN ls -l
 
-RUN cd app && ls -l
-RUN cat app/PREUGNTAS.MD
+WORKDIR /app
+
+EXPOSE 3030
+EXPOSE 35729
